@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+    <datastore-index kind="Activitystore" ancestor="false">
+        <property name="IMEI" direction="asc" />
+        <property name="startDate" direction="desc" />
+    </datastore-index>
+
+        <datastore-index kind="Activitystore" ancestor="false">
+        <property name="UID" direction="asc" />
+        <property name="startDate" direction="desc" />
+    </datastore-index>
+    <datastore-index kind="Activitystore" ancestor="false">
+        <property name="UID" direction="asc" />
+        <property name="startDate" direction="asc" />
+    </datastore-index>
+    <datastore-index kind="Activitystore" ancestor="false">
+        <property name="IMEI" direction="asc" />
+        <property name="startDate" direction="asc" />
+    </datastore-index>
+
+
+    <datastore-index kind="Datastore" ancestor="false">
+		<property name="date" direction="asc"/>
+        <property name="FNS" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Datastore" ancestor="false">
+   		<property name="date" direction="asc"/>
+        <property name="FNS" direction="desc"/>
+    </datastore-index>
+
+
+    <datastore-index kind="Userstore" ancestor="false">
+        <property name="UID" direction="asc" />
+        <property name="IMEI" direction="desc" />
+    </datastore-index>
+
+
+</datastore-indexes>

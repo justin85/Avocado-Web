@@ -1,0 +1,178 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>Greeting</servlet-name>
+		<servlet-class>com.avocado.servlet.Greetingservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Greeting</servlet-name>
+		<url-pattern>/guestbook</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Activity</servlet-name>
+		<servlet-class>com.avocado.servlet.Activityservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Activity</servlet-name>
+		<url-pattern>/activity</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>testActivity</servlet-name>
+		<servlet-class>com.avocado.servlet.testactivityservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>testActivity</servlet-name>
+		<url-pattern>/testactivity</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+        <servlet-name>Sign</servlet-name>
+        <servlet-class>com.avocado.servlet.Signgreetingservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sign</servlet-name>
+        <url-pattern>/sign</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Sensordata</servlet-name>
+        <servlet-class>com.avocado.servlet.Sensordataservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sensordata</servlet-name>
+        <url-pattern>/sensordata</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Useraccount</servlet-name>
+        <servlet-class>com.avocado.servlet.Accountservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Useraccount</servlet-name>
+        <url-pattern>/accountservlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Permission</servlet-name>
+        <servlet-class>com.avocado.servlet.Permissionservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Permission</servlet-name>
+        <url-pattern>/permissionservlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>read</servlet-name>
+        <servlet-class>com.avocado.servlet.Sensordataservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>read</servlet-name>
+        <url-pattern>/read</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+	  <servlet-name>export</servlet-name>
+	  <servlet-class>com.avocado.servlet.ExportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>export</servlet-name>
+	  <url-pattern>/export</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>moveUserstore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.UserstoreModify</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>moveUserstore</servlet-name>
+	  <url-pattern>/moveUserstore</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	  <servlet-name>moveDatastore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.DatastoreModify</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>moveDatastore</servlet-name>
+	  <url-pattern>/moveDatastore</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	  <servlet-name>testDatastore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.CopyDatastore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>testDatastore</servlet-name>
+	  <url-pattern>/testDatastore</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	  <servlet-name>deleteDatastore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.deleteDatastore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>deleteDatastore</servlet-name>
+	  <url-pattern>/deleteDatastore</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	  <servlet-name>generateDatastore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.generateDatastore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>generateDatastore</servlet-name>
+	  <url-pattern>/generateDatastore</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+	  <servlet-name>deleteTempDatastore</servlet-name>
+	  <servlet-class>com.avocado.modify.datastore.deleteTempDatastore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>deleteTempDatastore</servlet-name>
+	  <url-pattern>/deleteTempDatastore</url-pattern>
+	</servlet-mapping>
+	
+	
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+	
+<!--OnPositive Tools-->
+<!-- 
+<servlet>
+		<servlet-name>baseViewerServlet</servlet-name>
+		<servlet-class>com.onpositive.gae.tools.servlets.BaseViewerServlet
+		</servlet-class>
+	</servlet>
+<servlet-mapping>
+		<servlet-name>baseViewerServlet</servlet-name>
+		<url-pattern>/appwrench/baseviewer</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>SessionAuth</servlet-name>
+		<servlet-class>com.onpositive.auth.AuthServlet</servlet-class>
+	</servlet>
+<servlet-mapping>
+		<servlet-name>SessionAuth</servlet-name>
+		<url-pattern>/appwrench/auth</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>QueueHandler</servlet-name>
+		<servlet-class>com.onpositive.gae.tools.servlets.QueueHandlerServlet
+		</servlet-class>
+	</servlet>
+<servlet-mapping>
+		<servlet-name>QueueHandler</servlet-name>
+		<url-pattern>/appwrench/queuehandler</url-pattern>
+	</servlet-mapping>
+<security-constraint>
+		<web-resource-collection>
+			<url-pattern>/appwrench/queuehandler</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+ -->
+</web-app>

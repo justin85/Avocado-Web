@@ -1,0 +1,564 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-size: 13px;
+	text-align: justify;
+}
+
+body, th, td, input, textarea, select, option {
+	font-family: "Trebuchet MS", "Times New Roman", Arial, Times, serif;
+	color: #61492D;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #66A342;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 15px 0px;
+ 	padding: 5px 7px 5px 40px;  	
+    font-weight: normal;
+	font-size: 17px;
+	line-height: 1.6em;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;		
+	color: #66A342;
+}
+
+blockquote p, blockquote ul, blockquote ol {
+	line-height: normal;
+	font-style: italic;
+}
+
+a {
+	color: #66A342;
+}
+
+a:hover {
+	color: #66A342;
+}
+
+hr {
+	display: none;
+}
+
+/* Header */
+
+#topbg {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img01.jpg) no-repeat left top;
+}
+
+#header {
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(images/mainsimple.png) no-repeat left top;
+}
+
+#header h1, #header p {
+	margin: 0;
+	padding: 0;
+}
+
+#header h1 {
+	font-size: 40px;
+	padding: 20px 0 0 35px;
+	color: #823B07;
+}
+
+#header h2, #header p {
+	margin: 0;
+	padding: 0;
+}
+
+#header h2 {
+	font-size: 25px;
+	padding: 0px 0 0 50px;
+	color: #823B07;
+}
+
+#header h3, #header p {
+	margin: 0;
+	padding: 0;
+}
+
+#header h3 {
+	font-size: 10px;
+	padding: 20px 0 0 850px;
+	color: #000;
+}
+#header p {
+	margin-top: -20px;
+	padding: 0 0 0 30px;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	text-transform: lowercase;
+}
+
+#header a {
+	text-decoration: none;
+	color: #F79F1A;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+	background: url(images/boarder1.png) no-repeat left top;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 740px;
+	margin: 0;
+	padding-left: 30px;
+	color: #666666;
+}
+
+.post {
+	padding: 0px 0 0 0;
+}
+
+.title {
+	padding: 0 20px 5px 0px;
+	font-size: 26px;
+	background: url(images/img06.gif) no-repeat right 40%;
+	border-bottom: 2px #66A342 dashed;
+	margin-right: 20px;
+}
+
+.title a {
+	text-decoration: none;
+	color: #66A342;
+}
+
+.pagetitle {
+}
+
+.byline {
+	margin: -25px 20px 0 0px;
+	color: #66A342;
+}
+
+.meta {
+	text-align: left;
+	color: #66A342;
+	padding: 5px 20px 5px 25px;
+	background: url(images/img07.gif) no-repeat left 50%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+.meta .more {
+}
+
+.meta .comments {
+	background: url(images/img07.gif) no-repeat left 50%;
+	padding-left: 25px;
+}
+
+.meta a {
+	color: #66A342;
+}
+
+.navigation {
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.posts {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+.posts li {
+}
+
+.posts h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.posts p {
+	margin: 0;
+	line-height: normal;
+}
+
+.posts a {
+}
+
+.entry {
+	margin: 0;
+	padding: 17px 20px 5px 0px;
+}
+
+.last {
+	border: none;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;
+	padding-right: 30px;
+	color: #66A342;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin-left: 20px;
+	padding: 0;
+}
+
+#sidebar li li {
+	margin: 0 0 0 0;
+	margin: 0 0 0 0;
+	line-height: 35px;
+	border-bottom: 1px #66A342 dotted;
+}
+
+#sidebar h2 {
+	margin: 0px 0 0 20px; 
+	height: 35px;
+	font-size: 18px;
+	color: #66A342;
+	background: url(images/img04.gif) no-repeat right 30%;
+	border-bottom: 2px #66A342 dashed;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: none;
+}
+
+/* Search */
+
+#search input {
+	display: none;
+}
+
+#search input#s {
+	display: block;
+	width: 230px;
+	padding: 2px 5px;
+	border: 1px solid #3DD1FF;
+	background: #FFFFFF url(images/img05.gif) repeat-x;
+}
+
+#search br {
+	display: none;
+}
+/* Menu */
+
+#menu {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+}
+#wrapper {
+	width: 1040px;
+	margin: 0 auto;
+	padding: 0;
+}
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 35px;
+	margin-right: 1px;
+	padding: 15px 37px 0px 37px;
+	background: url(images/menu1.gif) no-repeat right top;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: url(images/menu2.gif) repeat-x left top;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+/* Calendar */
+
+div#dateSelectorPane th,div#dateSelectorPane td {
+	font-size:10pt;
+	text-align:right;
+}
+
+div#dateSelectorPane td {
+	cursor:pointer;
+}
+
+div#dateSelectorPane {
+	display:none;
+}
+
+div#dateSelectorPane table {
+	border:solid 2px black;
+}
+
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	margin: 0 auto;
+	height: 50px;
+	text-align: center;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #48AB07;
+	background: url(images/boarder2.png) no-repeat left top;
+	margin-bottom: 27px;
+}
+
+#footer p {
+	padding-top: 15px;
+}
+
+#footer p a {
+	color: #69B536;
+}
+
+img { border: none; }
+
+img.left {
+	float: left;
+	margin: 3px 20px 30px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 3px 0px 10px 30px;
+}
+
+
+
+
+
+
+
+
+/* define height and width of scrollable area. Add 16px to width for scrollbar          */
+div.tableContainer {
+	clear: both;
+	border: 1px solid #963;
+	height: 350px;
+	overflow: auto;
+	width: 656px
+}
+
+/* Reset overflow value to hidden for all non-IE browsers. */
+html>body div.tableContainer {
+	overflow: hidden;
+	width: 656px
+}
+
+/* define width of table. IE browsers only                 */
+div.tableContainer table {
+	float: left;
+	width: 640px
+}
+
+/* define width of table. Add 16px to width for scrollbar.           */
+/* All other non-IE browsers.                                        */
+html>body div.tableContainer table {
+	width: 656px
+}
+
+/* set table header to a fixed position. WinIE 6.x only                                       */
+/* In WinIE 6.x, any element with a position property set to relative and is a child of       */
+/* an element that has an overflow property set, the relative value translates into fixed.    */
+/* Ex: parent element DIV with a class of tableContainer has an overflow property set to auto */
+thead.fixedHeader tr {
+	position: relative
+}
+
+
+/* set THEAD element to have block level attributes. All other non-IE browsers            */
+/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */
+html>body thead.fixedHeader tr {
+	display: block
+}
+
+/* make the TH elements pretty */
+thead.fixedHeader th {
+	background: #C96;
+	border-left: 1px solid #EB8;
+	border-right: 1px solid #B74;
+	border-top: 1px solid #EB8;
+	font-weight: normal;
+	padding: 4px 3px;
+	text-align: left
+}
+
+/* make the A elements pretty. makes for nice clickable headers                */
+thead.fixedHeader a, thead.fixedHeader a:link, thead.fixedHeader a:visited {
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+}
+
+/* make the A elements pretty. makes for nice clickable headers                */
+/* WARNING: swapping the background on hover may cause problems in WinIE 6.x   */
+thead.fixedHeader a:hover {
+	color: #FFF;
+	display: block;
+	text-decoration: underline;
+	width: 100%;
+}
+
+/* define the table content to be scrollable                                              */
+/* set TBODY element to have block level attributes. All other non-IE browsers            */
+/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */
+/* induced side effect is that child TDs no longer accept width: auto                     */
+html>body tbody.scrollContent  {
+	display: block;
+	height: 327px;
+	overflow: auto;
+	width: 100%
+
+
+}
+
+
+/* make TD elements pretty. Provide alternating classes for striping the table */
+/* http://www.alistapart.com/articles/zebratables/                             */
+tbody.scrollContent td, table.scrollContent tr.normalRow td {
+	background: #FFF;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #DDD;
+	padding: 2px 3px 3px 4px
+}
+
+tbody.scrollContent tr.alternateRow td {
+	background: #EEE;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #DDD;
+	padding: 2px 3px 3px 4px
+}
+
+/* define width of TH elements: 1st, 2nd, and 3rd respectively.          */
+/* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body thead.fixedHeader th {
+	width: 30px
+}
+
+html>body thead.fixedHeader th + th {
+	width: 260px
+}
+
+html>body thead.fixedHeader th + th + th {
+	width: 150px
+}
+
+html>body thead.fixedHeader th + th + th + th{
+	width: 100px
+}
+html>body thead.fixedHeader th + th + th + th + th{
+	width: 100px
+}
+
+
+/* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
+/* All other non-IE browsers.                                            */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body tbody.scrollContent td {
+	width: 30px
+}
+
+html>body tbody.scrollContent td + td {
+	width: 260px
+}
+html>body tbody.scrollContent td + td + td {
+	width: 150px
+}
+html>body tbody.scrollContent td + td + td + td {
+	width: 100px
+}
+html>body tbody.scrollContent td + td + td + td + td{
+	width: 100px
+}
+
+
+
